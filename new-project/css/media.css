@@ -1,0 +1,194 @@
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .services_cards {
+        flex-wrap: wrap;
+    }
+
+    .services_card {
+        width: 100%;
+        height: auto;
+    }
+
+    .services_subtitle {
+        width: 100%;
+    }
+
+    .services_text {
+        width: 100%;
+    }
+
+    .works_tabs {
+        flex-wrap: wrap;
+    }
+
+    .works_content {
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .works_content-number {
+        font-size: 150px;
+        line-height: 160px;
+    }
+    
+    .works_content-text::before {
+        display: none;
+    }
+
+    .works_card {
+        width: 420px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .main {
+        padding: 50px 0;
+    }
+
+    .main_img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main_content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .works_slide {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .works_card {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .main_title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .main_subtitle {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 30px 0;
+    }
+
+    .main_cta {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .header_social, .header_email {
+        display: none;
+    }
+
+    .header_btn {
+        margin: 0 auto;
+    }
+
+    .advantages_items {
+        flex-wrap: wrap;
+    }
+
+    .advantages_item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .advantages_icon {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container {
+        max-width: 400px;
+    }
+    .header_btn {
+        display: none;
+    }
+
+    .header_inner {
+        flex-wrap: wrap;
+    }
+
+    .main_title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .main_subtitle {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .main_cta {
+        font-size: 18px;
+    }
+
+    .advantages_title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .services_title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .card_title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 350px;
+    }
+
+    .hamburger {
+        background: none;
+    }
+
+    .advantages_item {
+        width: 100%;
+    }
+}
