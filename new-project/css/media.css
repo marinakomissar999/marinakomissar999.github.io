@@ -2,11 +2,62 @@
     .container {
         max-width: 1170px;
     }
+
+    .reviews_slide {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews_card {
+        margin-bottom: 30px;
+    }
+
+    .reviews_card:last-child {
+        margin-bottom: -30px;
+    }
+
+    .reviews_btn {
+        display: block;
+        margin: 180px auto 0;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 1200px) {
     .container {
         max-width: 1000px;
+    }
+
+    .statistics_cards {
+        flex-wrap: wrap;
+    }
+
+    .statistics_card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .statistics_card:last-child {
+        margin-bottom: -30px;
+    }
+
+    .reviews_btn {
+        position: relative;
+    }
+
+    .next {
+        right: 100px;
+        background: #23355d;
+        
+    }
+
+    .prev {
+        left: 100px;
+        background:#23355d; 
+        z-index: 1;
     }
 }
 
@@ -81,16 +132,99 @@
         margin-bottom: 20px;
     }
 
-    .works_slide {
+    .works_tabs {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .works_card {
+        margin-left: 0;
+        margin-right: 0;
+        align-self: center;
+    }
+
+    .works_content-number {
+        display: none;
+    }
+
+    .works_content-title {
+        display: none;
+    }
+
+    .works_content-text {
+        display: none;
+    }
+
+
+    .works_text {
         width: 100%;
     }
 
+    .statistics {
+        padding: 80px 0;
+    }
+
+    .blog_inner {
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+
+    .blog_img {
+        width: 100%;
+    }
+
+    .reviews_subtitle {
+        width: 100%;
+    }
+
+    .blog_img {
+        margin-bottom: 30px;
+        margin-left: 0px;
+        order: 1;
+    }
+
+    .blog_content {
+        margin-left: 0;
+        text-align: center;
+        order: 2;
+    }
+
+    .blog {
+        padding: 0;
+    }
+
+    .contacts_inner {
+        flex-wrap: wrap;
+    }
+
+    .contacts_img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contacts_content {
+        width: 100%;
+    }
+
+    .contacts {
+        padding: 50px 0;
+    }
+
+    .contacts_text {
+        text-align: center;
+    }
+
+    .footer_subscribe {
+        flex-direction: column;
+    }
+
+    .footer_invite {
+        margin-bottom: 15px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -108,6 +242,14 @@
     .main_cta {
         font-size: 20px;
         line-height: 24px;
+    }
+
+    .reviews_btn {
+        margin-top: 80px;
+    }
+
+    .info-title {
+        font-size: 24px;
     }
 }
 
@@ -135,6 +277,11 @@
 
     .advantages_icon {
         margin-bottom: 15px;
+    }
+
+    .footer_menu {
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
@@ -177,6 +324,40 @@
     .card_title {
         font-size: 18px;
     }
+
+    .statistics_title {
+        font-size: 24px;
+    }
+
+    .statistics_example {
+        font-size: 30px;
+    }
+
+    .reviews_title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer_form {
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .footer_nav {
+        font-size: 16px;
+    }
+
+    .footer_btn {
+        width: 270px;
+        margin-top: 20px;
+    }
+
+    .footer_icon {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -190,5 +371,10 @@
 
     .advantages_item {
         width: 100%;
+    }
+
+    .reviews_card {
+        width: 100%;
+        height: auto;
     }
 }
